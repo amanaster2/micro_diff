@@ -1,0 +1,12 @@
+*.tif
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
+*.las
+.ipynb_checkpoints
+data/
+notebooks/archive/
+notebooks/data_analysis_ready/
+notebooks/shapefiles/

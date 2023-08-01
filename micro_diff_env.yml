@@ -1,0 +1,15 @@
+name: micro_diff
+channels:
+    - conda-forge
+dependencies:
+    - rasterio
+    - matplotlib
+    - numpy
+    - pandas
+    - jupyterlab
+    - astropy
+    - pdal
+    - gdown
+    - pip
+  - pip:
+    - "--editable=git+https://github.com/friedrichknuth/gtsa.git#egg=gtsa"
