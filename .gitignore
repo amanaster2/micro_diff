@@ -6,6 +6,7 @@
 *.shx
 *.las
 .ipynb_checkpoints
+src/
 data/
 notebooks/archive/
 notebooks/data_analysis_ready/
