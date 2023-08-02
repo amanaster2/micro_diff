@@ -11,6 +11,5 @@ dependencies:
     - pdal
     - gdown
     - pip
-#TODO: Fix issue with adding gtsa.
-    # - pip:
-    # - "--editable=git+https://github.com/friedrichknuth/gtsa.git#egg=gtsa"
+    - pip:
+        - "--editable=git+https://github.com/friedrichknuth/gtsa.git#egg=gtsa"
