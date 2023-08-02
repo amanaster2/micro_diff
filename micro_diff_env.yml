@@ -3,6 +3,7 @@ channels:
     - conda-forge
 dependencies:
     - rasterio
+    - rioxarray
     - matplotlib
     - numpy
     - pandas
