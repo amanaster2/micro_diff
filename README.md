@@ -22,7 +22,7 @@ $ pip install -e .
 
 ## Repository Navigation
 `notebooks` contains step-by-step Jupyter notebooks to analyze rut development  
-`micro` contains 
+`micro` contains .py files that contain functions for streamlining of code
 
 
 ## Third-Party Tools
