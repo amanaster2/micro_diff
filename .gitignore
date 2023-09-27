@@ -11,3 +11,5 @@ data/
 notebooks/archive/
 notebooks/data_analysis_ready/
 notebooks/shapefiles/
+micro/
+micro.egg-info/
