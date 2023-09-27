@@ -16,7 +16,6 @@ dependencies:
     - zarr
     - folium
     - geopandas
-    - tree
     - pip
     - pip:
         - "--editable=git+https://github.com/friedrichknuth/gtsa.git#egg=gtsa"
