@@ -6,6 +6,7 @@
 *.shx
 *.las
 .ipynb_checkpoints
+.vscode
 src/
 data/
 notebooks/archive/
