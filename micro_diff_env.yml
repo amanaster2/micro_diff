@@ -20,3 +20,4 @@ dependencies:
     - pip
     - pip:
         - "--editable=git+https://github.com/friedrichknuth/gtsa.git#egg=gtsa"
+        - rasterstats
