@@ -10,6 +10,7 @@ dependencies:
     - jupyterlab
     - astropy
     - pdal
+    - gdal
     - gdown
     - fsspec
     - dask
