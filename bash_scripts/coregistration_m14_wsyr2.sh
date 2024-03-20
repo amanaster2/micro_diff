@@ -9,8 +9,10 @@ for date in 20220309 20220316 20220324 20220411 20220428 20220601 ;
         echo dem_align.py $ref $src
         dem_align.py $ref $src
         align=../data/dems/m14_results/wsyr2/m14_${date}_sfm*/*align.tif
-        echo dem_stable_zalign.py $ref $stable $align
-        dem_stable_zalign.py $ref $stable $align
-        newalign=../data/dems/m14_results/wsyr2/m14_${date}_sfm*/*nuth*align.tif
-        echo $newalign
+        # echo dem_stable_zalign.py $ref $stable $align
+        # dem_stable_zalign.py $ref $stable $align
+        # newalign=../data/dems/m14_results/wsyr2/m14_${date}_sfm*/*nuth*align.tif
+        # echo $newalign
+        cp $align /home/adalvis/github/micro_diff/data/dems/m14_coreg/MEL-14/wsyr2/
+        mv /home/adalvis/github/micro_diff/data/dems/m14_coreg/MEL-14/wsyr2/*align.tif /home/adalvis/github/micro_diff/data/dems/m14_coreg/MEL-14/wsyr2/m14_${date}_sfm_coreg.tif 
     done
