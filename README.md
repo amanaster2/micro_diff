@@ -25,5 +25,18 @@ $ pip install -e .
 `micro` contains .py files that contain functions for streamlining of code
 
 
+## Analysis Steps
+1. Run `clip_rasters.ipynb`
+    
+2. Run `coregistration.ipynb`
+3. Run `raster_analysis.ipynb`
+4. Run `stats.ipynb`
+5. Move to [ll_micro](https://github.com/amanaster2/ll_micro/tree/main) and follow steps in that `README.md`.
+<!In ll_micro:
+6. Run first cell of `resample_dems.ipynb`
+7. Run `flowAccumulation_k13.ipynb` and `flowAccumulation_m14.ipynb`
+8. Run the rest of `resample_dems.ipynb`>
+6. Run `flow_pathway_analysis.ipynb`
+
 ## Third-Party Tools
 - [Geospatial Time Series Analysis (gtsa)](https://github.com/friedrichknuth/gtsa/tree/main)
